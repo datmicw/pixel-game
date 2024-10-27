@@ -1,5 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.tvOS;
+using UnityEngine.SceneManagement;
+
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -52,13 +54,17 @@ public class PlayerMovement : MonoBehaviour
         }
         if (collision.collider.CompareTag("Obstacle"))
         {
-            //Time.timeScale = 0;
+            //Time.timeScale = 0; // Dừng trò chơi
             Debug.Log("Trò chơi đã dừng do va chạm với chướng ngại vật!");
         }
         if (collision.collider.CompareTag("Apple"))
         {
             Destroy(collision.gameObject);
             Debug.Log("Touch Apple");
+        }
+        if (collision.collider.CompareTag("End"))
+        {
+            LoadNextScene(); // Load level
         }
     }
 
@@ -68,5 +74,9 @@ public class PlayerMovement : MonoBehaviour
         {
             isGrounded = false;
         }
+    }
+    public void LoadNextScene()
+    {
+        SceneManager.LoadScene("Level 2"); 
     }
 }
