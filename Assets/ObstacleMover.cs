@@ -29,14 +29,14 @@ public class ObstacleMover : MonoBehaviour
 
     private void MoveVertical()
     {
-        // Tính toán vị trí mới theo trục Y để tạo chuyển động lên xuống
+        // vị trí mới theo trục Y để tạo chuyển động lên xuống
         float newY = startPosition.y + Mathf.Sin(Time.time * speed) * moveDistance;
         transform.position = new Vector3(startPosition.x, newY, startPosition.z);
     }
 
     private void MoveHorizontal()
     {
-        // Tính toán vị trí mới theo trục X để tạo chuyển động qua lại
+        // vị trí mới theo trục X để tạo chuyển động qua lại
         float newX = startPosition.x + Mathf.Sin(Time.time * speed) * moveDistance;
         transform.position = new Vector3(newX, startPosition.y, startPosition.z);
     }
