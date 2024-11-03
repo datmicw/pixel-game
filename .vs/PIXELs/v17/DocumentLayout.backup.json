@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\datmi\\PIXELs\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0A8F9C38-4B5E-1560-ED54-88F0DE0E7093}|Assembly-CSharp.csproj|C:\\Users\\datmi\\PIXELs\\assets\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A8F9C38-4B5E-1560-ED54-88F0DE0E7093}|Assembly-CSharp.csproj|solutionrelative:assets\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0A8F9C38-4B5E-1560-ED54-88F0DE0E7093}|Assembly-CSharp.csproj|c:\\users\\datmi\\pixels\\assets\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0A8F9C38-4B5E-1560-ED54-88F0DE0E7093}|Assembly-CSharp.csproj|solutionrelative:assets\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A8F9C38-4B5E-1560-ED54-88F0DE0E7093}|Assembly-CSharp.csproj|C:\\Users\\datmi\\PIXELs\\assets\\obstaclemover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A8F9C38-4B5E-1560-ED54-88F0DE0E7093}|Assembly-CSharp.csproj|solutionrelative:assets\\obstaclemover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,16 +30,51 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "ObstacleMover.cs",
+              "DocumentMoniker": "C:\\Users\\datmi\\PIXELs\\Assets\\ObstacleMover.cs",
+              "RelativeDocumentMoniker": "Assets\\ObstacleMover.cs",
+              "ToolTip": "C:\\Users\\datmi\\PIXELs\\Assets\\ObstacleMover.cs",
+              "RelativeToolTip": "Assets\\ObstacleMover.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T15:01:21.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "PlayerMovement.cs",
               "DocumentMoniker": "C:\\Users\\datmi\\PIXELs\\Assets\\PlayerMovement.cs",
               "RelativeDocumentMoniker": "Assets\\PlayerMovement.cs",
               "ToolTip": "C:\\Users\\datmi\\PIXELs\\Assets\\PlayerMovement.cs",
               "RelativeToolTip": "Assets\\PlayerMovement.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAADwvykAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAowD0AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T14:00:46.297Z",
+              "WhenOpened": "2024-11-02T15:01:19.918Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UIManager.cs",
+              "DocumentMoniker": "C:\\Users\\datmi\\PIXELs\\Assets\\UIManager.cs",
+              "RelativeDocumentMoniker": "Assets\\UIManager.cs",
+              "ToolTip": "C:\\Users\\datmi\\PIXELs\\Assets\\UIManager.cs",
+              "RelativeToolTip": "Assets\\UIManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T14:33:59.993Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 92,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             }
           ]
         }

@@ -7,6 +7,7 @@ public class PlayerMovement : MonoBehaviour
     public float jumpForce = 10f;
     private Rigidbody2D rb;
     private bool isGrounded;
+    public GameObject playAgainPanel;
 
     void Start()
     {
@@ -50,7 +51,15 @@ public class PlayerMovement : MonoBehaviour
         }
         if (collision.collider.CompareTag("Obstacle"))
         {
-            Debug.Log("Trò chơi đã dừng do va chạm với chướng ngại vật!");
+            SceneManager.LoadScene("Lose Game");
+        }
+        if (collision.collider.CompareTag("Doc"))
+        {
+            SceneManager.LoadScene("Lose Game");
+        }
+        if (collision.collider.CompareTag("Ngang"))
+        {
+            SceneManager.LoadScene("Lose Game");
         }
         if (collision.collider.CompareTag("Apple"))
         {
